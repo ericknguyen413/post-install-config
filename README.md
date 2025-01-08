@@ -24,19 +24,19 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 With osTicket open navigate to the Admin Panel by clicking "Admin Panel" located in orange at the top right of the page:
 
-![image](https://github.com/user-attachments/assets/f49af089-f61d-4c9f-9ef2-12662698ca34)
+![image](https://github.com/user-attachments/assets/0a6bf025-fe31-4640-83ce-f7410f37f427)
 
 To start configuring Roles Navigate to the "Agents" tab and click on "Roles" underneath the "Agents" tab. Enter a role name:
 
-![image](https://github.com/user-attachments/assets/b6c38dc8-1be6-4181-8790-cd93a3896c5c)
+![image](https://github.com/user-attachments/assets/dcada870-1d9c-4eaa-92bc-cab99dd1e7a1)
 
 In the "Permissions" tab of this role, give this role all permissions in "Tickets", "Tasks", and "Knowledgebase". This will be our "Supreme Admin" Role:
 
-![image](https://github.com/user-attachments/assets/14389aed-0419-448e-af65-83acacd96b79)
+![image](https://github.com/user-attachments/assets/bbe5eef1-ef22-4aaa-9ebf-4940e6c53507)
 
-![image](https://github.com/user-attachments/assets/2d380601-39ed-4141-9196-d4db43f5c279)
+![image](https://github.com/user-attachments/assets/32ec6173-a7ce-4e93-b397-f57b348fcf4d)
 
-![image](https://github.com/user-attachments/assets/8b4eec01-25e0-4f45-a169-6291c062fba4)
+![image](https://github.com/user-attachments/assets/251d0983-274f-4942-819e-19c1f2dd602b)
 
 To set up departments, while still in the "Agents" tab, click on "Departments" located just below the "Agents" tab. Name the department "Sysadmins" and create the Department:
 
@@ -44,11 +44,11 @@ To set up departments, while still in the "Agents" tab, click on "Departments" l
 
 Next, create a team by selecting the "Teams" tab, while still in the "Agents" tab. Then, name the team "Online Banking" and create team:
 
-![image](https://github.com/user-attachments/assets/4c8320c9-b9c2-4d11-85ee-fe47db7a19d6)
+![image](https://github.com/user-attachments/assets/0e6438fb-b86a-4134-a51e-6822673e7344)
 
 Now, to allow anyone to create tickets, go to the "Settings" Tab, and under "Authentication Settings" make sure that "Require registration and login to create tickets" is unchecked:
 
-![image](https://github.com/user-attachments/assets/1c67d8d0-34e7-4795-99e6-6d67eb445928)
+![image](https://github.com/user-attachments/assets/179c5f68-3999-412c-85fd-3aee9d4a411c)
 
 To create agents (the help desk workers) navigate back to the "Agents" tab and select "Agents" and fill out the name, email, and username:
 
@@ -56,31 +56,31 @@ To create agents (the help desk workers) navigate back to the "Agents" tab and s
 
 Next to the username click "Set Password" set the password. Uncheck the "Send the agent a password reset email" and "Require password change at next login" options:
 
-![image](https://github.com/user-attachments/assets/84b50ebe-c589-40d1-9dc7-65560c0fa1f9)
+![image](https://github.com/user-attachments/assets/1a02f73b-d055-47a8-8628-67276bb213e2)
 
 On the "Access" tab for this user select the "System Administrators" department and the "Supreme Admin" role created earlier:
 
-![image](https://github.com/user-attachments/assets/30f5c936-52d9-4e98-8895-57847a683ea4)
+![image](https://github.com/user-attachments/assets/69bd25ba-5520-491b-ad42-bdd7c6be63da)
 
 Keep Permission settings as is:
 
-![image](https://github.com/user-attachments/assets/33fcd568-8c37-4366-b96e-520c3fe6cbdf)
+![image](https://github.com/user-attachments/assets/e22afc02-ecc8-4bbc-8d0a-7a506e317f43)
 
 Under the "Teams" tab select "Online Banking" for this agent:
 
-![image](https://github.com/user-attachments/assets/c8d53625-c46e-4523-9502-647ed0b57ac2)
+![image](https://github.com/user-attachments/assets/be5efda6-2f2b-4e45-90c6-0a50adaafb7e)
 
 Create one more agent as done previously, the only difference is in the "Access" tab select "Support" for the department:
 
-![image](https://github.com/user-attachments/assets/a556437f-b5e5-44ce-97fd-8e426257df09)
+![image](https://github.com/user-attachments/assets/cd3c0c2e-0744-4ed8-8832-726ef36d211e)
 
-![image](https://github.com/user-attachments/assets/737312d6-2f1c-40d0-9e1f-d72fab542ed1)
+![image](https://github.com/user-attachments/assets/6c08976b-1096-4585-b52e-f846676371c7)
 
 Keep Permission and Team settings as is:
 
-![image](https://github.com/user-attachments/assets/70b605c9-f14c-4e65-93dd-c162c258b7ea)
+![image](https://github.com/user-attachments/assets/f86a2f37-5a9b-40aa-8c40-3da8e1a750f4)
 
-![image](https://github.com/user-attachments/assets/43b49de2-d2c2-4372-846f-e47afbf1c3ee)
+![image](https://github.com/user-attachments/assets/4079dd78-b8e7-4497-a6ec-628a3d9168a8)
 
 Next, to create a user (the customers) switch to the "Agent Panel" in orange in the top right> Users> Add User and put an email and name, then create.
 
@@ -88,18 +88,17 @@ Next, to create a user (the customers) switch to the "Agent Panel" in orange in 
 
 Configuring an SLA plan navigate back to Admin Panel> Manage> SLA create three SLAs with different severities, grace periods, and schedules like so:
 
-![image](https://github.com/user-attachments/assets/606cff05-64dd-43b9-8fc6-613204870754)
+![image](https://github.com/user-attachments/assets/f27cf3b3-8e5e-4441-8d40-dc5dd73057ef)
 
-![image](https://github.com/user-attachments/assets/5e030d0b-472d-4e30-b039-288d391d3020)
+![image](https://github.com/user-attachments/assets/f43f5018-8a4b-410a-a34f-41e5958d5663)
 
-![image](https://github.com/user-attachments/assets/78d09872-6e39-4363-8bbc-960db6ab0ee0)
+![image](https://github.com/user-attachments/assets/2750b928-6568-4b17-ba02-44d756842caa)
 
-![image](https://github.com/user-attachments/assets/1590004e-d467-4c62-a5ef-eb7104ee0cef)
+![image](https://github.com/user-attachments/assets/3a389d75-2233-4c05-b58c-6e90d14559a1)
 
 Under the same "Manage" tab go to the "Help Topics" tab and create five help topics named, "Business Critical Outage", "Personal Computer Issues", "Equipment Request", "Password Reset", and "Other":
 
-![image](https://github.com/user-attachments/assets/4fa01a49-1e8b-491e-bf98-a08129db8701)
-
+![image](https://github.com/user-attachments/assets/199a3a3d-b822-4501-9c97-469331242f58)
 
 <h2>osTicket Setup Complete!</h2>
 
